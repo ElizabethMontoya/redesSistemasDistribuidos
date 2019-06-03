@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Imperial Boootstrap Template</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <meta property="og:title" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:description" content="">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
+
+  <link href="favicon.ico" rel="shortcut icon">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate-css/animate.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+ 
+  <script src="build/app.js"></script>
+  <script type="text/javascript">
+      window.onload = function(){
+          document.getElementById('frm').onsubmit = function(){
+              return false 
+          }
+      }
+  </script>
+</head>
+
+<body>
+  <div id="preloader"></div>
+
+  <!--==========================
+  Hero Section
+  ============================-->
+  <section id="hero">
+    <div class="hero-container">
+      <div class="wow fadeIn">
+        <div class="hero-logo">
+          <img class="" src="img/logo.png" alt="Imperial">
+        </div>
+
+        <h1>Bienvenidos al Hotel Imperial</h1>
+        <h2>
+          <span class="rotating">Unas vaciones que nunca olvidaras, disfruta y diviertete</span>
+        </h2>
+        <div class="actions">
+          <a href="#contact" class="btn-services">Reservaciones</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+  Header Section
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <a href="#hero">
+          <img src="img/logo.png" alt="" title="" /></img>
+        </a>
+        <!-- Uncomment below if you prefer to use a text image -->
+        <!--<h1><a href="#hero">Header 1</a></h1>-->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li>
+            <a href="#hero">Principal</a>
+          </li>
+          <li>
+            <a href="#about">Acerca de nosotros</a>
+          </li>
+          <li>
+            <a href="#services">Servicios</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portafolio</a>
+          </li>
+          <li>
+            <a href="#testimonials">Testimonios</a>
+          </li>
+          <li>
+            <a href="#team">Equipo</a>
+          </li>
+          <li class="menu-active">
+            <a href="#contact">Reservaciones</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- #nav-menu-container -->
+    </div>
+  </header>
+  <!-- #header -->
+
+
+  <!--==========================
+  Contact Section
+  ============================-->
+  <section id="contact">
+    <div class="container wow fadeInUp">
+      <div class="form"></div>
+      <form id="frm" class="contactForm">
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="section-title">Reservaciones</h3>
+            <div class="section-title-divider"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="form-group">
+              <input type="text" id="Numero" class="form-control" placeholder="Reservacion" value="1" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Nombre" />
+              <div class="validation"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-2">
+            <div class="form-group">
+              Tipo 1: $1,000
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="form-group">
+              <input type="text" id="Hab1" name="Hab1" class="form-control" placeholder="Cantidad de Habitaciones" />
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="form-group">
+              <input type="date" class="form-control" id="fEntrada1" name="fEntrada1" placeholder="Fecha de Entrada" />
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="form-group">
+              <input type="date" id="fSalida1" name="fSalida1" class="form-control" placeholder="Fecha de Salida" />
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="form-group">
+              <div type="text" class="form-control" id="Dias1" size="7"></div>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="form-group">
+              <div type="text" class="form-control" id="Precio1" size="7"></div>
+            </div>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-sm-2">
+            <div class="form-group">
+              Tipo 2: $1,500
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="form-group">
+              <input type="text" id="Hab2" name="Hab2" class="form-control" placeholder="Cantidad de Habitaciones" />
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="form-group">
+              <input type="date" class="form-control" id="fEntrada2" name="fEntrada2" placeholder="Fecha de Entrada" />
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="form-group">
+              <input type="date" id="fSalida2" name="fSalida2" class="form-control" placeholder="Fecha de Salida" />
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="form-group">
+              <div type="text" class="form-control" id="Dias2" size="7"></div>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="form-group">
+              <div type="text" class="form-control" id="Precio2" size="7"></div>
+            </div>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+          <h1 id="Total" style="font-size:small;text-align: center"></h1>
+          <h1 id="message" style="font-size:small;text-align: center"></h1>
+          <div class="section-title-divider"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="section"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-md-push-2">
+            <div class="col-sm-2">
+              <div class="form-group">
+                <input name="boton" type="submit" value="NUEVA" onclick="procesa('Nueva')">
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="form-group">
+                <input name="boton" type="submit" value="VERIFICA" onclick="procesa('Verificar')">
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="form-group">
+                <input name="boton" type="submit" value="RESERVA" onclick="procesa('Reserva')">
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="form-group">
+                <input name="boton" type="submit" value="CONSULTA" onclick="procesa('Consulta')">
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="form-group">
+                <input name="boton" type="submit" value="CANCELA" onclick="procesa('Cancela')">
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="form-group">
+                <input name="boton" type="submit" value="SALIR" onclick="procesa('Salir')">
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!--==========================
+  Footer
+============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="info">
+          <div class="col-sm-4">
+            <i class="fa fa-map-marker"></i>
+            <p>A108 Adam Street
+              <br>New York, NY 535022</p>
+          </div>
+
+          <div class="col-sm-4">
+            <i class="fa fa-envelope"></i>
+            <p>servicioalcliente@imperial.com</p>
+          </div>
+
+          <div class="col-sm-4">
+            <i class="fa fa-phone"></i>
+            <p>+1 5589 55488 55s</p>
+          </div>
+
+        </div>
+
+
+        <div class="col-md-12">
+          <div class="copyright">
+            &copy; Copyright
+            <strong>Hotel Imperial</strong>. All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- #footer -->
+
+  <a href="#" class="back-to-top">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+
+  <!-- Required JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/morphext/morphext.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/stickyjs/sticky.js"></script>
+  <script src="lib/easing/easing.js"></script>
+
+  <!-- Template Specisifc Custom Javascript File -->
+  <script src="js/custom.js"></script>
+
+  <script src="contactform/contactform.js"></script>
+
+
+</body>
+
+</html>
